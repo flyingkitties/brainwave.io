@@ -10,4 +10,15 @@
   .flexCenter {
     @apply flex items-center justify-center;
   }
+
+  /* Hero section */
+  .hero-container {
+    @apply flex flex-col text-center text-[#161C2D] max-w-[601px] space-y-2;
+  }
+  .hero-container h1 {
+    @apply text-2xl md:text-3xl lg:text-5xl font-semibold mb-5 lg:mb-10;
+  }
+  .hero-container p {
+    @apply font-light text-xs md:text-sm lg:text-base;
+  }
 }
