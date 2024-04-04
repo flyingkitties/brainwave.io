@@ -10,7 +10,7 @@ function Header() {
   const [nav, setNav] = useState<boolean>(false);
   const { links } = useNavigation();
   return (
-    <header className="sticky top-0 z-50 flex items-center mt-3 justify-between px-5 md:px-[10%] xl:px-[15%]">
+    <header className="sticky top-0 z-50 flex items-center mt-3 justify-between ">
       {/* Logo */}
       <div className="flex">
         <Link href="/">
@@ -24,7 +24,7 @@ function Header() {
         onKeyDown={() => setNav(!nav)}
         role="button"
         tabIndex={0}
-        className="absolute right-5 md:right-[10%] z-30 lg:hidden"
+        className="absolute right-0 z-30 lg:hidden"
       >
         {nav ? (
           <FaTimes className="h-7 w-auto xs:h-8" />
