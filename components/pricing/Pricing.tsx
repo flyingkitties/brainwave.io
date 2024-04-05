@@ -19,7 +19,7 @@ function Pricing() {
   return (
     <div>
       {/* Toggle Monthly or yearly */}
-      <div className="flexCenter space-x-3">
+      <div className="flexCenter space-x-5">
         <p>Monthly</p>
         <label
           htmlFor="toggle"
@@ -34,7 +34,7 @@ function Pricing() {
           />
           <div
             className="relative w-11 h-6 bg-[#161C2D] opacity-15 peer-focus:outline-none 
-          peer-focus:ring-4 peer-focus:ring-[#161C2D]/15  rounded-full peer dark:bg-gray-700 
+          peer-focus:ring-4 peer-focus:ring-[#161C2D]/15  rounded-full peer
           peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full
            peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] 
            after:start-[2px] after:bg-white after:border-gray-300 after:border 

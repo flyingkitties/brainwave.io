@@ -40,7 +40,7 @@ function Header() {
               <li
                 key={path}
                 className={cn(
-                  'cursor-pointer px-4 py-6 text-4xl capitalize',
+                  'cursor-pointer px-4 py-6 text-4xl',
                   isActive && 'text-primary',
                 )}
               >
